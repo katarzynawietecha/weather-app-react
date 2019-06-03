@@ -1,3 +1,26 @@
 .App {
   text-align: center;
 }
+.container {
+  padding: 10px 0;
+}
+a:hover {
+  text-decoration: none;
+}
+.settings a:hover {
+  cursor: not-allowed;
+}
+label {
+  display: block;
+}
+input[type=text]{
+  width: calc(75% - 10px);
+  margin-right: 10px;
+}
+table {
+  width: 100%;
+}
+th, td {
+    padding: 5px 20px;
+    border-bottom: 1px solid lightgray;
+  }
